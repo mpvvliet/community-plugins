@@ -1,9 +1,11 @@
 #!/bin/bash
 
+<#if deployed.container.envVars??>
 <#assign envVars=deployed.container.envVars />
 <#list envVars?keys as envVar>
 export ${envVar}="${envVars[envVar]}"
 </#list>
+</#if>
 
 START_DELAY_SECS=${deployed.startDelay}
 
