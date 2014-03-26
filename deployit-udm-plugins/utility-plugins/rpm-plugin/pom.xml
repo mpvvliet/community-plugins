@@ -14,8 +14,8 @@
     <maven.test.skip>true</maven.test.skip>
   </properties>
   <scm>
-    <connection>scm:git:git://github.com/xebialabs/community-plugins.git</connection>
-    <url>scm:git:git://github.com/xebialabs/community-plugins.git</url>
+    <connection>scm:git:https://github.com/xebialabs/community-plugins.git</connection>
+    <url>scm:git:https://github.com/xebialabs/community-plugins.git</url>
   </scm>
   <dependencies>
     <dependency>
